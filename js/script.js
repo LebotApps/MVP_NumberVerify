@@ -1,3 +1,11 @@
+// API 9d5acbb007c74165b9702ec4a7246e81
+
+// data structure https://phonevalidation.abstractapi.com/v1/?api_key=9d5acbb007c74165b9702ec4a7246e81&phone=14152007986
+
+// project requirements https://seir-everest.netlify.app/unit-projects/unit-one-project-requirements/
+
+// DONT FORGET README FILE 
+
 let verifyNumber;
 
 let $inputText;
