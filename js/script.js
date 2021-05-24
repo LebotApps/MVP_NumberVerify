@@ -3,6 +3,7 @@ let verifyNumber;
 let $inputText;
 
 const $number = $(`#number`);
+const $valid = $(`#valid`);
 const $carrier = $(`#carrier`);
 const $location = $(`#location`);
 
@@ -19,7 +20,8 @@ $.ajax({
         
         verifyNumber = data;
 
-        $number.text(data["valid"]);
+        $number.text(data["phone"]);
+        $valid.text(data["valid"]);
         $carrier.text(data["carrier"]);
         $location.text(data["location"]);
         
