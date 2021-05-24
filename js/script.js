@@ -1,3 +1,6 @@
+//add media queries 
+//fix desktop view 
+
 let verifyNumber;
 
 let $inputText;
