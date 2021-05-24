@@ -4,21 +4,23 @@
 
 // project requirements https://seir-everest.netlify.app/unit-projects/unit-one-project-requirements/
 
-// DONT FORGET README FILE 
 
 let verifyNumber;
 
-let $inputText;
-
-const $number = $(`#number`);
+const $number = $("#number");
 const $carrier = $(`#carrier`);
 const $location = $(`#location`);
+
+function render(){
+
+}
+
 
 
 function handleGetData(event) {
     event.preventDefault();
 
-    inputText = $("#main").val();
+    searchText= $("input#main").val();
 
 $.ajax({
     
@@ -32,17 +34,14 @@ $.ajax({
     function (data) {
         verifyNumber = data;
 
-        $number.text(data["phone"]);
-
-        alert("is it working");
-
+        $number.text(data["phone", "valid"]);
+        $carrier.text(data["carrier"]);
+        $location.text(data["location"]);
     },
+
 function (error) {
   console.log("bad request: ", error);
-}
-
-);
-
-}
+})
+};
 
 $("form").on('submit', handleGetData);
