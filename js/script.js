@@ -1,5 +1,7 @@
-//add media queries 
-//fix desktop view 
+// add getting started to readme file 
+//add screenshoots of actual app to screenshots
+//future enhancements (international calls and saved searches)
+
 
 let verifyNumber;
 
