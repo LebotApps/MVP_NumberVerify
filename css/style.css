@@ -27,8 +27,8 @@ header {
 
     display: block;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -46,6 +46,7 @@ p{
     height: 165px;
     width: 230px;
     align-items: right;
+    margin-top: 80px;
 }
 
 /* MEDIA QUERIES */
