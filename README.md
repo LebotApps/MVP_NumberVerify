@@ -19,7 +19,7 @@ Desktop
 ![screenshot](imgs/DesktopWireFrame.jpg)
 
 # Getting Started 
-*click here to see deployed app*
+[Number Verify App](https://number-verify.netlify.app)
 
 Enter your number in the field and press "Enter" or "Verify".
 
